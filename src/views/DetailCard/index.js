@@ -8,7 +8,6 @@ function Detailcard(){
      const { adId } = useParams()
     const[adds,setads]=useState([])
     const[takeuser,setuser]=useState()
-  
     console.log(adId)
     useEffect(()=>{
         singlead()
